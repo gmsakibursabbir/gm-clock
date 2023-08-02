@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- 
+        - primary meta tag
+     -->
+    <title>GM CLOCK 2.0</title>
+    <!-- 
+        - favcon
+     -->
+    <link
+      rel="shortcut icon"
+      href="./assets/images/favicon.svg"
+      type="image/svg-xml"
+    />
+
+    <!-- 
+        - google font link
+     -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/mailtoharshit/San-Francisco-Font-/sanfrancisco.css"
+    />
+    <!-- 
+        - bootstrap css link
+     -->
+     <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <!-- 
+        - custom css link
+     -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/media.css" />
+    <!-- 
+        - preloader image
+     -->
+  </head>
+  <body id="main">
+    <!-- 
+      #HEADER
+     -->
+    <section class="container">
+      <div class="logo">
+        <span>GM-CLOCK</span>
+      </div>
+      <div class="clock-container">
+        <div id="date"></div>
+        <div id="time"></div>
+        <div class="switch">
+          <label class="switch">
+            <input type="checkbox" id="formatSwitch">
+            <span class="slider round"></span>
+          </label>
+          <span class="sw_hr">12h/24h</span>
+        </div>
+        <!-- <div class="bottom">
+          <button id="btn"></button>
+        </div> -->
+      </div>
+
+      <div class="f-panel">
+        <div class="main-icons">
+          <a href="#"
+            ><img src="./assets/image/clock.png" alt="clock" class="c-icon"
+          /></a>
+          <span class="c-name">Clock</span>
+        </div>
+        <div class="main-icons">
+          <a href="#"
+            ><img src="./assets/image/stopwatch.png" alt="Stopwatch" class="c-icon"
+          /></a>
+          <span class="c-name">Stopwatch</span>
+        </div>
+        <div class="main-icons">
+          <a href="#"
+            ><img src="./assets/image/countdown.png" alt="Countdown" class="c-icon"
+          /></a>
+          <span class="c-name">Countdown</span>
+        </div>
+        <div class="main-icons">
+          <a href="#"
+            ><img src="./assets/image/alarm.png" alt="Alarm" class="c-icon"
+          /></a>
+          <span class="c-name">Alarm </span>
+        </div>
+        <div class="main-icons">
+          <a href="#"
+            ><img src="./assets/image/worldclock.png" alt="World Clock" class="c-icon"
+          /></a>
+          <span class="c-name">World Clock</span>
+        </div>
+
+    </section>
+    <!-- 
+    - custom js link
+ -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.clouds.min.js"></script>
+
+    <script src="./assets/js/script.js"></script>
+
+    <!-- 
+ - bootstrap js link
+-->
+    <script src="./assets/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
