@@ -1,3 +1,3 @@
 # gm-clock
 
-Live Link = https://github.com/gmsakibursabbir/gm-clock/settings/pages
+Live Link = https://gmsakibursabbir.github.io/gm-clock/
